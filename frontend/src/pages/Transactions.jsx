@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { 
   Tabs, Card, Form, Input, InputNumber, Select, DatePicker, Button, Table, Space, 
-  Tag, Upload, Divider, message, Drawer, Popconfirm 
+  Tag, Upload, Divider, message, Drawer, Popconfirm, Typography, Row, Col 
 } from 'antd';
 import { 
   PlusOutlined, 
@@ -17,7 +17,7 @@ import axios from 'axios';
 
 const { TabPane } = Tabs;
 const { Dragger } = Upload;
-const { Text } = Typography;
+const { Title, Text } = Typography;
 
 const CATEGORIES = [
   "Food",
@@ -32,8 +32,6 @@ const CATEGORIES = [
   "Rent",
   "Other"
 ];
-
-import { Typography } from 'antd';
 
 export default function Transactions({ transactions, user, onRefresh }) {
   const [activeTab, setActiveTab] = useState('1');

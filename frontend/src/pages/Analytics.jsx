@@ -6,7 +6,7 @@ import {
   PercentageOutlined, 
   WalletOutlined 
 } from '@ant-design/icons';
-import { ResponsiveContainer, AreaChart, Area, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
+import { ResponsiveContainer, AreaChart, Area, BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 
 const { Title, Text } = Typography;
 
