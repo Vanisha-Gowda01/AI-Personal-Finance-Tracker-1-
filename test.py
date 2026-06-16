@@ -1,0 +1,1 @@
+print("Personal Finance AI Tracker Setup Successful!")
